@@ -6,11 +6,11 @@ This article is grouped in the following sections:
 
 - [Preinstalled plugins](https://learn.microsoft.com/en-us/security-copilot/manage-plugins?tabs=securitycopilotplugin#preinstalled-plugins)
 - [Custom plugins](https://learn.microsoft.com/en-us/security-copilot/manage-plugins?tabs=securitycopilotplugin#custom-plugins)
-- Control plugins:
-   - Turn plugins on or off
-   - Personalize plugin settings
-   - Update plugins
-   - Delete added plugins
+- [Control plugins:](https://learn.microsoft.com/en-us/security-copilot/manage-plugins?tabs=securitycopilotplugin#control-plugins)
+   - [Turn plugins on or off](https://learn.microsoft.com/en-us/security-copilot/manage-plugins?tabs=securitycopilotplugin#turn-plugins-on-or-off)
+   - [Personalize plugin settings](https://learn.microsoft.com/en-us/security-copilot/manage-plugins?tabs=securitycopilotplugin#personalize-plugin-settings)
+   - [Update plugins](https://learn.microsoft.com/en-us/security-copilot/manage-plugins?tabs=securitycopilotplugin#control-plugins)
+   - [Delete added plugins](https://learn.microsoft.com/en-us/security-copilot/manage-plugins?tabs=securitycopilotplugin#delete-added-plugins)
 
   
 
