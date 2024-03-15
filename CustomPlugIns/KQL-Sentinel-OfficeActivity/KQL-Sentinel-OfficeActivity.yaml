@@ -1,0 +1,46 @@
+Descriptor:
+  Name: Summarize Office 365 Activity logs from Sentinel
+  DisplayName: "Sentinel KQL: Recent Office 365 Activity"
+  Description: Skills that lookup recent Office 365 Activity for a user or IP from a Sentinel workspace.
+  #Can you describe the Office 365 Activity logs in detail over a few paragraphs for the IP x.x.x.x between Dec 3rd and Dec 4th?
+  #Can you describe the Office 365 Activity logs in detail over a few paragraphs for the the use x@contoso.com from IP x.x.x.x between Dec 3rd and Dec 4th?
+
+SkillGroups:
+  - Format: KQL
+    Skills:
+      - Name: Get Office 365 Activity Logs
+        DisplayName: Get Office 365 Actvitiy Logs
+        Description: Get the Office 365 Activity Logs for a specified user time and date range from a Sentinel workspace.
+        Inputs:
+          - Name: username
+            Description: The username to lookup
+            Required: false
+          - Name: ip
+            Description: The ip to lookup
+            Required: false
+          - Name: fromDateTime
+            Description: The from time and date
+            Required: true
+          - Name: toDateTime
+            Description: The to time and date
+            Required: true
+        Settings:
+          Target: Sentinel
+           # The ID of the AAD Organization that the Sentinel workspace is in.
+          TenantId: **ENTRA TENANT GUID**
+          # The id of the Azure Subscription that the Sentinel workspace is in.
+          SubscriptionId: **AZURE SUBSCRIPTION ID**
+          # The name of the Resource Group that the Sentinel workspace is in.
+          ResourceGroupName: **LOG ANALYTICS RESOURCE GROUP NAME**
+          # The name of the Sentinel workspace.
+          WorkspaceName: **LOG ANALYTICS WORKSPACE NAME**
+          Template: |-
+            let upn='{{username}}';
+            let ip='{{ip}}';
+            let fromDateTime=datetime('{{fromDateTime}}');
+            let toDateTime=datetime('{{toDateTime}}');
+            OfficeActivity
+            | where ClientIP like ip
+            | where datetime_utc_to_local(TimeGenerated, "US/Pacific") between ( fromDateTime .. toDateTime )
+            | where UserId like upn
+            | project TimeGenerated, Type, Operation, ClientInfoString, OfficeWorkload, ResultStatus, UserId, ClientIP, Parameters, Item                      
