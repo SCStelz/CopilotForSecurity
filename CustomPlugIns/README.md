@@ -4,7 +4,7 @@ To extend the capabilities of Security Copilot, preinstalled plugins are availab
 
 This article is grouped in the following sections:
 
-- (Preinstalled plugins)[https://learn.microsoft.com/en-us/security-copilot/manage-plugins?tabs=securitycopilotplugin#preinstalled-plugins]
+- [Preinstalled plugins](https://learn.microsoft.com/en-us/security-copilot/manage-plugins?tabs=securitycopilotplugin#preinstalled-plugins)
 - Custom plugins
 - Control plugins:
    - Turn plugins on or off
