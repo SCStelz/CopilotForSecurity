@@ -25,7 +25,7 @@ SkillGroups:
             Required: true
         Settings:
           Target: Kusto
-          Cluster: https://**ADXCLUSTERNAME**.**ADXCLUSTERREGION**.kusto.windows.net
+          Cluster: **ADX CLUSTER URL**
           Database: **ADX DATABASE NAME**
           TenantId: **ENTRA TENANT ID**
           Template: |-
