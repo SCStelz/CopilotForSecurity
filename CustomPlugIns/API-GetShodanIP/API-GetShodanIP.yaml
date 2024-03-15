@@ -16,4 +16,4 @@ Descriptor:
 SkillGroups:
   - Format: API
     Settings:
-      OpenApiSpecUrl: https://raw.githubusercontent.com/officechris/OpenAI/main/API-Shodan-OAPI.yaml
+      OpenApiSpecUrl: https://raw.githubusercontent.com/SCStelz/CopilotForSecurity/main/CustomPlugIns/API-GetShodanIP/OpenAPI/API-GetShodanIP-OAPI.yaml
