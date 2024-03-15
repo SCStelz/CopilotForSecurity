@@ -1,0 +1,40 @@
+openapi: 3.0.0
+
+info:
+    title: Get Shodan IP Address Information
+    description: Gets details from Shodan about an IP Address.
+    #Examples
+    #Can you summarize the Shodan information for the IP 185.220.101.140?
+    #Can you summarize the IP address information from Shodan for the IP 75.156.61.64?
+    version: "v1"
+
+servers:
+    - url: https://api.shodan.io
+
+paths:
+    /shodan/host/{ip}:
+        get:
+            operationId: getShodanIP
+            summary: Get Shodan Information for a particular IP address.
+            parameters:
+                - in: path
+                  name: ip
+                  schema:
+                      type: string
+                  required: true
+                  description: The ip address to lookup              
+            responses:
+                "200":
+                    description: OK
+                    content:
+                        application/json:
+                            schema:
+                                $ref: "#/components/schemas/getShodanIPResponse"
+
+        responses:
+          "201":
+            description: The incident object created.
+            content:
+              application/json:
+                schema:
+                  type: object

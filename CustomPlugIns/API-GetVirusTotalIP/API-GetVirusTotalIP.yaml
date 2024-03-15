@@ -1,0 +1,20 @@
+Descriptor:
+  Name: Virus Total IP Lookup
+  DisplayName: Virus Total IP Lookup
+  Description: Get detailed information from Virus Total about an IP Address.
+  #Examples
+  #Can you summarize the Virus Total information for the IP 185.220.101.140?
+  #Can you output a table I can export of the reputation information from all the engines from Virus Total for the IP 185.220.101.140?
+  #Which engines detected the IP 185.220.101.140 as malicious from Virus Total?
+  SupportedAuthTypes:
+    - ApiKey
+  Authorization:
+    Type: APIKey
+    Key: x-apikey
+    Location: Header
+    AuthScheme: ''
+
+SkillGroups:
+  - Format: API
+    Settings:
+      OpenApiSpecUrl: https://raw.githubusercontent.com/officechris/OpenAI/main/virustotal-oai.yaml

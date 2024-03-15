@@ -1,0 +1,19 @@
+Descriptor:
+  Name: Get Shodan IP Address Information
+  DisplayName: Get Shodan IP Address Information.
+  Description: Get detailed information from Shodan about an IP Address.
+  #Examples
+  #Can you summarize the Shodan information for the IP 185.220.101.140?
+  #Can you summarize the IP address information from Shodan for the IP 75.156.61.64?
+  SupportedAuthTypes:
+    - ApiKey
+  Authorization:
+    Type: APIKey
+    Key: key
+    Location: QueryParams
+    AuthScheme: ''
+
+SkillGroups:
+  - Format: API
+    Settings:
+      OpenApiSpecUrl: https://raw.githubusercontent.com/officechris/OpenAI/main/API-Shodan-OAPI.yaml

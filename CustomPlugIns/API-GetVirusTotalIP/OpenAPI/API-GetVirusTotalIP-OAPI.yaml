@@ -1,0 +1,57 @@
+openapi: 3.0.0
+
+info:
+    title: Get Virus Total IP Information
+    description: Get Information about an IP from Virus Total
+    #Examples
+    #Can you summarize the Virus Total information for the IP 185.220.101.140?
+    #Can you output a table I can export of the reputation information from all the engines from Virus Total for the IP 185.220.101.140?
+    #Which engines detected the IP 185.220.101.140 as malicious from Virus Total?
+    version: "v1"
+
+servers:
+    - url: https://www.virustotal.com/api
+
+paths:
+    /v3/ip_addresses/{ip}:
+        get:
+            operationId: getVirusTotalIP
+            summary: Get Virus Total IP Information for a particular IP address.
+            parameters:
+                - in: path
+                  name: ip
+                  schema:
+                      type: string
+                  required: true
+                  description: The ip address to lookup              
+            responses:
+                "200":
+                    description: OK
+                    content:
+                        application/json:
+                            schema:
+                                $ref: "#/components/schemas/getVTIPResponse"
+
+components:
+    schemas:
+        getVTIPResponse:
+            type: object
+            properties:
+                attributes:
+                    type: object
+                    properties:
+                        jarm:
+                            type: string
+                        network:
+                            type: string
+                        last_https_certificate_date:
+                            type: integer
+                        tags:
+                            type: array
+                        crowdsourced_context:
+                            type: array
+                            items:
+                                type: object
+                                properties:
+                                    source:
+                                        type: string
