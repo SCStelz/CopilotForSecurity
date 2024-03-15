@@ -12,4 +12,6 @@ This article is grouped in the following sections:
    - Update plugins
    - Delete added plugins
 
+  
+
    ![CopilotForSecurity](https://learn.microsoft.com/en-us/security-copilot/media/manage-plugin-custom.png)
