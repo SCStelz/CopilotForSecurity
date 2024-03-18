@@ -20,7 +20,7 @@
 
 ### Plugin Utilization
 
-Here's some sample queries you can utilize to trigger this plugin
+Here's some sample queries you can utilize to trigger this plugin - You can mix and match UPN or IP Address (or both) parameters, but always include a time and date range.
 
  * Can you describe the Sign in log results in detail from the ADX Long Term Archive store over a few paragraphs for user@contoso.com between Oct 23, 2023 and Oct 27, 2023?
 * Can you describe the Sign in log results in detail from the ADX Long Term Archive store over a few paragraphs for the IP 165.87.34.123 between Oct 23, 2023 and Oct 27, 2023?
