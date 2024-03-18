@@ -13,7 +13,8 @@
 
 1. Obtain the file [KQL-ADX-SignInLogs.yaml](https://github.com/SCStelz/CopilotForSecurity/blob/main/CustomPlugIns/KQL-ADX-SignInLogs/KQL-ADX-SignInLogs.yaml) from this directory.
 2. Modify the .yaml file and specify your *ADX Cluster URL*, your *ADX Database* and your *Entra TenantId* parameters.
-3. [Upload the custom plugin](https://learn.microsoft.com/en-us/security-copilot/manage-plugins?tabs=securitycopilotplugin#add-custom-plugins) and verify it's activated.
+   ![ADXPlugin](https://github.com/SCStelz/CopilotForSecurity/blob/main/Images/adx-connection.png)
+4. [Upload the custom plugin](https://learn.microsoft.com/en-us/security-copilot/manage-plugins?tabs=securitycopilotplugin#add-custom-plugins) and verify it's activated.
 
 ![CopilotForSecurity](https://learn.microsoft.com/en-us/security-copilot/media/add-plugin-button.png)
 
@@ -25,5 +26,3 @@ Here's some sample queries you can utilize to trigger this plugin
 * Can you describe the Sign in log results in detail from the ADX Long Term Archive store over a few paragraphs for the IP 165.87.34.123 between Oct 23, 2023 and Oct 27, 2023?
  * Can you describe in detail the sign-in's where Conditional Access status was a failure from the ADX Long Term Archive store for user@contoso.com during December 2023?  Be sure to include timestamps for the sign-in activities.
 <br>
-
-
