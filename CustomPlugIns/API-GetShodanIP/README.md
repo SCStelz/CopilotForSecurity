@@ -23,7 +23,7 @@ Here's some sample queries you can utilize to trigger this plugin
 
 * Can you summarize the Shodan information for the IP 185.220.101.140?
 <br>
-<img src="https://github.com/SCStelz/CopilotForSecurity/blob/main/Images/shodan-ip.png"/>
+<img src="https://github.com/SCStelz/CopilotForSecurity/blob/main/Images/Shodan-ip.png"/>
 <br>
 <img src="https://github.com/SCStelz/CopilotForSecurity/blob/main/Images/shodan-ip-2-masked.png"/>
 
