@@ -6,7 +6,7 @@
 
 * [Copilot for Security Enabled](https://learn.microsoft.com/en-us/security-copilot/get-started-security-copilot#onboarding-to-microsoft-security-copilot)
 * [Access to upload custom plugins](https://learn.microsoft.com/en-us/security-copilot/manage-plugins?tabs=securitycopilotplugin#managing-custom-plugins)
-* [An Azure Data Explorer cluster](https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/using-azure-data-explorer-for-long-term-retention-of-microsoft/ba-p/1883947) with Entra ID Sign in logs exporting from the Signinlogs table in Sentinel to ADX
+* [An Azure Data Explorer cluster](https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/using-azure-data-explorer-for-long-term-retention-of-microsoft/ba-p/1883947) with Entra ID Sign in logs exported from the Signinlogs table in Sentinel to ADX
 
 ### Instructions
 #### Upload the Custom Plugin
