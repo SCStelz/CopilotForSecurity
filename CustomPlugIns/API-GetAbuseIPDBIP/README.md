@@ -5,7 +5,7 @@
 ### Pre-requisites
 
 * Copilot for Security Enabled
-* Access to upload custom plugins
+* [Access to upload custom plugins](https://learn.microsoft.com/en-us/security-copilot/manage-plugins?tabs=securitycopilotplugin#managing-custom-plugins)
 * [API Key](https://www.abuseipdb.com/api.html) from AbuseIPDB.com 
 
 
