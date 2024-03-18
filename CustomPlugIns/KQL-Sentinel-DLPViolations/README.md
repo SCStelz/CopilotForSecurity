@@ -27,6 +27,6 @@ Here's some sample queries you can utilize to trigger this plugin
 * Can you describe in detail over a few paragraphs a timeline of events coming from the recent DLP violations for the user user@contoso.com from the past 90 days? Be sure to include all relevant DLP violation details
 * Can you provide a list of sensitive files that have been uploaded to the cloud from the recent DLP violations for user@contoso.com in the past 90 days?
 
-
+![CopilotForSecurity](https://github.com/SCStelz/CopilotForSecurity/blob/main/Images/dlp-masked.png)
 
 
