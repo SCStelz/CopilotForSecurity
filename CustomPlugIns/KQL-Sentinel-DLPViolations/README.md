@@ -24,7 +24,7 @@
 
 ### Plugin Utilization
 
-Here's some sample queries you can utilize to trigger this plugin - You can mix and match UPN or IP Address, but always include a time and date range.
+Here's some sample queries you can utilize to trigger this plugin - You can mix and match UPN or IP Address (or both) parameters, but always include a time and date range.
 
 * Can you describe in detail over a few paragraphs a timeline of events coming from the recent DLP violations coming from the ip x.x.x.x between Jan 5, 2024 and Jan 9, 2024? Be sure to include all relevant DLP violation details.
 * Can you provide a list of sensitive files that have been uploaded to the cloud from the recent DLP violations for user@contoso.com in the past 90 days?
