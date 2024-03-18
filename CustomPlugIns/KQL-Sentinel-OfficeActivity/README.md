@@ -24,7 +24,7 @@
 
 ### Plugin Utilization
 
-Here's some sample queries you can utilize to trigger this plugin
+Here's some sample queries you can utilize to trigger this plugin -  - You can mix and match UPN or IP Address (or both) parameters, but always include a time and date range.
 
 * Can you describe the Office 365 Activity logs in detail over a few paragraphs for the IP x.x.x.x between Dec 3rd and Dec 4th?
 * Can you describe the Office 365 Activity logs in detail over a few paragraphs for the user user@contoso.com from the last 7 days?
