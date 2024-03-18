@@ -27,5 +27,5 @@ Here's some sample queries you can utilize to trigger this plugin
  * Can you describe in detail the sign-in's where Conditional Access status was a failure from the ADX Long Term Archive store for user@contoso.com during December 2023?  Be sure to include timestamps for the sign-in activities.
 <br>
 
-[CopilotForSecurity](https://github.com/SCStelz/CopilotForSecurity/blob/main/Images/adx-masked.png)
+![ADX](https://github.com/SCStelz/CopilotForSecurity/blob/main/Images/adx-masked.png)
 
