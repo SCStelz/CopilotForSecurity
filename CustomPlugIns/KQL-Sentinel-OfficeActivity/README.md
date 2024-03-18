@@ -13,10 +13,12 @@
 ### Instructions
 #### Upload the Custom Plugin
 
-1. Obtain the file [KQL-Sentinel-OfficeActivity.yaml](https://github.com/SCStelz/CopilotForSecurity/blob/main/CustomPlugIns/KQL-Sentinel-OfficeActivity/KQL-Sentinel-OfficeActivity.yaml) from this directory.
-2. Modify the yaml file to specify your specific Entra TentantId, SubscriptionId, ResourceGroupName and WorkspaceName for your Sentinel instance. ie.
+1. Obtain the file [KQL-Sentinel-DLPViolations.yaml](https://github.com/SCStelz/CopilotForSecurity/blob/main/CustomPlugIns/KQL-Sentinel-DLPViolations/KQL-Sentinel-DLPViolations.yaml) from this directory.
+2. Modify the yaml file to specify your specific Entra TentantId, SubscriptionId, ResourceGroupName and WorkspaceName for your Sentinel instance.
+
 ![KQLConnection](https://github.com/SCStelz/CopilotForSecurity/blob/main/Images/kql-connection.png)
-4. [Upload the custom plugin](https://learn.microsoft.com/en-us/security-copilot/manage-plugins?tabs=securitycopilotplugin#add-custom-plugins) and verify it's activated.
+
+3. [Upload the custom plugin](https://learn.microsoft.com/en-us/security-copilot/manage-plugins?tabs=securitycopilotplugin#add-custom-plugins) and verify it's activated.
 
 ![CopilotForSecurity](https://learn.microsoft.com/en-us/security-copilot/media/add-plugin-button.png)
 
