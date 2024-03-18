@@ -25,6 +25,5 @@ Here's some sample queries you can utilize to trigger this plugin
 * Can you output a table of the last 25 reported port scan's for the IP 205.210.31.142 coming from AbuseIPDB Reports?
 * Can you output a list of all of the port numbers that users reported port scans from AbuseIPDB for IP 205.210.31.142?
 
-
-
+<img src="./images/abuse-ipdb.png"/>
 
