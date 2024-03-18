@@ -22,7 +22,7 @@
 
 ### Plugin Utilization
 
-Here's some sample queries you can utilize to trigger this plugin -  - You can mix and match UPN or IP Address (or both) parameters, but always include a time and date range.
+Here's some sample queries you can utilize to trigger this plugin - You can mix and match UPN or IP Address (or both) parameters, but always include a time and date range.
 
 * Can you describe in detail over a few paragraphs the GCP Audit Log operations associated with user@contoso.com over the last 90 days??
 * Can you describe in detail over a few paragraphs the GCP Audit Log operations associated with the ip 165.234.23.52 between March 4, 2024 and March 7, 2024?
