@@ -6,7 +6,7 @@
 
 * [Copilot for Security Enabled](https://learn.microsoft.com/en-us/security-copilot/get-started-security-copilot#onboarding-to-microsoft-security-copilot)
 * [Access to upload custom plugins](https://learn.microsoft.com/en-us/security-copilot/manage-plugins?tabs=securitycopilotplugin#managing-custom-plugins)
-* [API Key](https://developer.shodan.io/api/requirements) from AbuseIPDB.com
+* [API Key](https://developer.shodan.io/api/requirements) from Shodan.io
 
 ### Instructions
 #### Upload the Custom Plugin
