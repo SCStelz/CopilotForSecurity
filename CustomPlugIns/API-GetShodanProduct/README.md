@@ -11,7 +11,7 @@
 ### Instructions
 #### Upload the Custom Plugin
 
-1. Obtain the file [API-GetAbuseIPDBIP.yaml](https://github.com/SCStelz/CopilotForSecurity/blob/main/CustomPlugIns/API-GetShodanIP/API-GetShodanIP.yaml) from this directory.
+1. Obtain the file [API-GetShodanProduct.yaml](https://github.com/SCStelz/CopilotForSecurity/blob/main/CustomPlugIns/API-GetShodanIP/API-GetShodanIP.yaml) from this directory.
 2. [Upload the custom plugin](https://learn.microsoft.com/en-us/security-copilot/manage-plugins?tabs=securitycopilotplugin#add-custom-plugins) and verify it's activated.
 3. After plugin upload put in your [Shodan API Key](https://learn.microsoft.com/en-us/security-copilot/plugin_api#configure-authentication-1).
 
