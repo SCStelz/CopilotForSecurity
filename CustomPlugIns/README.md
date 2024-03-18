@@ -1,13 +1,13 @@
 # Copilot for Security Custom Plugins
 
-* API-GetAbuseIPDBIP - Looks up IP Address reputation and abuse details from AbuseIPDB for a particluar IP Address.
-* API-GetShodanIP - Looks up IP Address reputation and running services details from Shodan for a particular IP Address.
-* API-GetShodanProduct - Looks up worldwide version distribution of a particular product (ie. Plex Media Server) from Shodan.
-* API-GetVirusTotalIP - Looks up IP Address reputation information from VirusTotal for a particular IP Address.
-* KQL-ADX-SignInLogs - Looks up Entra ID Sign-in logs from an Azure Data Explorer cluster that has the Signinlogs table being exported from Microsoft Sentinel to ADX.
-* KQL-Sentinel-DLPViolations - Looks up DLP Violations for a particular user, IP Address and Time and Date range from the DLP.All events in the Unified Audit logs within Microsoft Sentinel.
-* KQL-Sentinel-GCPAuditLogs - Looks up Google Cloud Platform Audit logs for a particular user, IP address and time and date range from the GCPAudit logs table in Microsoft Sentinel.
-* KQL-Sentinel-OfficeActivity - Looks up Microsoft 365 Activity logs for a particular user, IP Address and Time and Date range from the OfficeActivity logs table in Microsoft Sentinel.
+* [API-GetAbuseIPDBIP](https://github.com/SCStelz/CopilotForSecurity/tree/main/CustomPlugIns/API-GetAbuseIPDBIP) - Looks up IP Address reputation and abuse details from AbuseIPDB for a particluar IP Address.
+* [API-GetShodanIP](https://github.com/SCStelz/CopilotForSecurity/tree/main/CustomPlugIns/API-GetShodanIP) - Looks up IP Address reputation and running services details from Shodan for a particular IP Address.
+* [API-GetShodanProduct](https://github.com/SCStelz/CopilotForSecurity/tree/main/CustomPlugIns/API-GetShodanProduct) - Looks up worldwide version distribution of a particular product (ie. Plex Media Server) from Shodan.
+* [API-GetVirusTotalIP](https://github.com/SCStelz/CopilotForSecurity/tree/main/CustomPlugIns/API-GetVirusTotalIP) - Looks up IP Address reputation information from VirusTotal for a particular IP Address.
+* [KQL-ADX-SignInLogs](https://github.com/SCStelz/CopilotForSecurity/tree/main/CustomPlugIns/KQL-ADX-SignInLogs) - Looks up Entra ID Sign-in logs from an Azure Data Explorer cluster that has the Signinlogs table being exported from Microsoft Sentinel to ADX.
+* [KQL-Sentinel-DLPViolations](https://github.com/SCStelz/CopilotForSecurity/tree/main/CustomPlugIns/KQL-Sentinel-DLPViolations) - Looks up DLP Violations for a particular user, IP Address and Time and Date range from the DLP.All events in the Unified Audit logs within Microsoft Sentinel.
+* [KQL-Sentinel-GCPAuditLogs](https://github.com/SCStelz/CopilotForSecurity/tree/main/CustomPlugIns/KQL-Sentinel-GCPAuditLogs) - Looks up Google Cloud Platform Audit logs for a particular user, IP address and time and date range from the GCPAudit logs table in Microsoft Sentinel.
+* [KQL-Sentinel-OfficeActivity](https://github.com/SCStelz/CopilotForSecurity/tree/main/CustomPlugIns/KQL-Sentinel-OfficeActivity) - Looks up Microsoft 365 Activity logs for a particular user, IP Address and Time and Date range from the OfficeActivity logs table in Microsoft Sentinel.
 
 
 # Manage plugins in Microsoft Security Copilot
