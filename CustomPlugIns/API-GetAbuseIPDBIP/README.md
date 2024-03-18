@@ -14,6 +14,6 @@
 1. Obtain the file API-GetAbuseIPDBIP.yaml from this directory.
 2. Upload the custom plugin and verify it's activated.
 
-![CopilotForSecurity]([https://learn.microsoft.com/en-us/security-copilot/media/security-copilot-diagram.png](https://learn.microsoft.com/en-us/security-copilot/media/add-plugin-button.png)https://learn.microsoft.com/en-us/security-copilot/media/add-plugin-button.png)
+![CopilotForSecurity](https://learn.microsoft.com/en-us/security-copilot/media/add-plugin-button.png)
 
 
