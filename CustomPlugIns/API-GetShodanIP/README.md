@@ -28,6 +28,6 @@ Here's some sample queries you can utilize to trigger this plugin
 <img src="https://github.com/SCStelz/CopilotForSecurity/blob/main/Images/shodan-ip-2-masked.png"/>
 
 You can follow up a question with the [API-GetShodan-Product Plugin](https://github.com/SCStelz/CopilotForSecurity/tree/main/CustomPlugIns/API-GetShodanProduct) to validate worldwide version distribution of the particluar product.
-
+*Based on the product on the open port, can you get a version distribution form Shodan? Is this product the latest?
 <img src="https://github.com/SCStelz/CopilotForSecurity/blob/main/Images/shodan-product-masked.png"/>
 
