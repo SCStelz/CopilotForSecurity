@@ -7,7 +7,7 @@
 * [Copilot for Security Enabled](https://learn.microsoft.com/en-us/security-copilot/get-started-security-copilot#onboarding-to-microsoft-security-copilot)
 * [Access to upload custom plugins](https://learn.microsoft.com/en-us/security-copilot/manage-plugins?tabs=securitycopilotplugin#managing-custom-plugins)
 * [Microsoft Sentinel Workspace](https://learn.microsoft.com/en-us/azure/sentinel/quickstart-onboard) created.
-* Microsoft Sentinel [Unified Audit Logs Connector](https://github.com/sreedharande/IngestOffice365AuditLogs) enabled, this pull's in additional DLP.All events into a custom O365_CL table.
+* Microsoft Sentinel [Unified Audit Logs Connector](https://github.com/sreedharande/IngestOffice365AuditLogs) enabled which pull's in additional DLP.All audit events into a custom O365_CL table.
 * Parameters for KQL Plugin - Microsoft Sentinel Workspace Name, Subscription ID, Resource Group Name and Entra Tenant ID
 
 ### Instructions
