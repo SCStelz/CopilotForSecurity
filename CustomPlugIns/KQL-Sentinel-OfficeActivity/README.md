@@ -13,7 +13,7 @@
 ### Instructions
 #### Upload the Custom Plugin
 
-1. Obtain the file [KQL-Sentinel-DLPViolations.yaml](https://github.com/SCStelz/CopilotForSecurity/blob/main/CustomPlugIns/KQL-Sentinel-DLPViolations/KQL-Sentinel-DLPViolations.yaml) from this directory.
+1. Obtain the file [KQL-Sentinel-OfficeActivity.yaml](https://github.com/SCStelz/CopilotForSecurity/blob/main/CustomPlugIns/KQL-Sentinel-OfficeActivity/KQL-Sentinel-OfficeActivity.yaml) from this directory.
 2. Modify the yaml file to specify your specific Entra TentantId, SubscriptionId, ResourceGroupName and WorkspaceName for your Sentinel instance.
 
 ![KQLConnection](https://github.com/SCStelz/CopilotForSecurity/blob/main/Images/kql-connection.png)
