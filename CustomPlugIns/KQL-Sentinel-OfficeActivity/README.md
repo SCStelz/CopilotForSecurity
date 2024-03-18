@@ -24,6 +24,7 @@
 Here's some sample queries you can utilize to trigger this plugin
 
 * Can you describe the Office 365 Activity logs in detail over a few paragraphs for the IP x.x.x.x between Dec 3rd and Dec 4th?
-* Can you describe the Office 365 Activity logs in detail over a few paragraphs for the the use x@contoso.com from IP x.x.x.x between Dec 3rd and Dec 4th?
+
+![O365Logs](https://github.com/SCStelz/CopilotForSecurity/blob/main/Images/O365logs-Masked.png)
 
 
