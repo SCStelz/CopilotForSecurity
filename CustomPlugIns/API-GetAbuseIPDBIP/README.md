@@ -6,6 +6,6 @@
 
 * Copilot for Security Enabled
 * Access to upload custom plugins
-* (API Key) [https://www.abuseipdb.com/api.html] from AbuseIPDB.com 
+* [API Key] (https://www.abuseipdb.com/api.html) from AbuseIPDB.com 
 
 
