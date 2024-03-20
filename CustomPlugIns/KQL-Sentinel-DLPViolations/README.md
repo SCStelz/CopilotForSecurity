@@ -1,4 +1,4 @@
-# Sentinel KQL DLP Audit Logs
+# Copilot for Security Custom Plugin - Sentinel KQL DLP Audit Logs
 
 #### Copilot for Security Plugin to run a Dynamic KQL Query for a particluar user, IP Address and time and date range against the Unified audit logs table *O365_CL* in a Microsoft Sentinel workspace.
 
