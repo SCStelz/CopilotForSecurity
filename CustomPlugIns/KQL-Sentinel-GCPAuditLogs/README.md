@@ -1,4 +1,4 @@
-# Copilot for Security Custom Plugin - Sentinel KQL GCPAudit Logs
+# Copilot for Security Custom Plugin - Sentinel KQL - GCPAudit Logs
 
 #### Copilot for Security Plugin to run a Dynamic KQL Query for a particluar user, IP Address and time and date range against the GCPAudit logs in a Microsoft Sentinel workspace.
 
