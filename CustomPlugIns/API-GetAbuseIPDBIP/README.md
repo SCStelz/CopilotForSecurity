@@ -1,4 +1,4 @@
-# Get Abuse IPDB IP Information
+# Copilot for Security Custom Plugin - API - Get Abuse IPDB IP Information
 
 #### Copilot for Security Plugin to gather reputation and abuse reports for an IP Address using AbuseIPDB API's
 
