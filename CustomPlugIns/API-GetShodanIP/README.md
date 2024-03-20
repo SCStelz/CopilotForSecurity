@@ -1,4 +1,4 @@
-# Get Shodan IP Information
+# Copilot for Security Custom Plugin - API - Get Shodan IP Information
 
 #### Copilot for Security Plugin to gather reputation and running services for an IP Address using Shodan's API's
 
