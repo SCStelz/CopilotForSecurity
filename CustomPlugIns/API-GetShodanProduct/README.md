@@ -1,4 +1,4 @@
-# Get Shodan Product Distribution
+# Copilot for Security Custom Plugin - API - Get Shodan Product Distribution
 
 #### Copilot for Security Plugin to gather Shodan Product version distribution using Shodan's API's
 
