@@ -1,4 +1,4 @@
-# Get Virus Total IP Information
+# Copilot for Security Custom Plugin - API - Get Virus Total IP Information
 
 #### Copilot for Security Plugin to gather reputation information for an IP Address using Virus Total API's
 
