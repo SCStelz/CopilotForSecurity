@@ -1,4 +1,4 @@
-# Get Entra Sign-in Logs from Azure Data Explorer
+# Copilot for Security Custom Plugin - ADX KQL - Get Entra Sign-in Logs from Azure Data Explorer
 
 #### Copilot for Security Plugin to retrieve Entra ID Sign-in logs from an Azure Data Explorer cluster.
 
