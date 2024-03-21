@@ -1,6 +1,6 @@
 # Copilot for Security Custom Plugin - Sentinel KQL - Sentinel Costs
 
-#### Copilot for Security Plugin to run a Dynamic KQL Query to retrieve Microsoft Sentinel Costs for a specific time and date range by running a KQL query against the Usage table in Microsoft Sentinel.
+#### Copilot for Security Plugin to run a Dynamic KQL Query to estimate Microsoft Sentinel Costs for a specific time and date range by running a KQL query against the Usage table in Microsoft Sentinel.
 
 ### Pre-requisites
 
