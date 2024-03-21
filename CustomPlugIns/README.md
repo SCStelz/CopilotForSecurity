@@ -8,6 +8,7 @@
 * [KQL-Sentinel-DLPViolations](https://github.com/SCStelz/CopilotForSecurity/tree/main/CustomPlugIns/KQL-Sentinel-DLPViolations) - Looks up DLP Violations for a particular user, IP Address and Time and Date range from the DLP.All events in the Unified Audit logs within Microsoft Sentinel.
 * [KQL-Sentinel-GCPAuditLogs](https://github.com/SCStelz/CopilotForSecurity/tree/main/CustomPlugIns/KQL-Sentinel-GCPAuditLogs) - Looks up Google Cloud Platform Audit logs for a particular user, IP address and time and date range from the GCPAudit logs table in Microsoft Sentinel.
 * [KQL-Sentinel-OfficeActivity](https://github.com/SCStelz/CopilotForSecurity/tree/main/CustomPlugIns/KQL-Sentinel-OfficeActivity) - Looks up Microsoft 365 Activity logs for a particular user, IP Address and Time and Date range from the OfficeActivity logs table in Microsoft Sentinel.
+* * [KQL-Sentinel-SentinelCost](https://github.com/SCStelz/CopilotForSecurity/blob/main/CustomPlugIns/KQL-Sentinel-SentinelCost/KQL-SentinelCost.yaml) - Looks up the Microsoft Sentinel costs for a particular date and time range by utilizing the the Usage logs table in Microsoft Sentinel.
 
 
 # Manage plugins in Microsoft Security Copilot
