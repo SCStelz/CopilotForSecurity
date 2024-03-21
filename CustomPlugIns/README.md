@@ -1,5 +1,7 @@
 # Copilot for Security Custom Plugins
 
+_Plugins listed here are for informational and educational purposes only and do not come with support._
+
 * [API-GetAbuseIPDBIP](https://github.com/SCStelz/CopilotForSecurity/tree/main/CustomPlugIns/API-GetAbuseIPDBIP) - Looks up IP Address reputation and abuse details from AbuseIPDB for a particluar IP Address.
 * [API-GetShodanIP](https://github.com/SCStelz/CopilotForSecurity/tree/main/CustomPlugIns/API-GetShodanIP) - Looks up IP Address reputation and running services details from Shodan for a particular IP Address.
 * [API-GetShodanProduct](https://github.com/SCStelz/CopilotForSecurity/tree/main/CustomPlugIns/API-GetShodanProduct) - Looks up worldwide version distribution of a particular product (ie. Plex Media Server) from Shodan.
