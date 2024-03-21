@@ -29,5 +29,9 @@ Here's some sample queries you can utilize to trigger this plugin - Always inclu
 * Can you provide me a summary of my total Sentinel costs between March 1, 2024 and March 15, 2024?
 * Can you provide a detailed summary of my total Sentinel costs for the past 90 days? Be sure to explain what each table is used for within Sentinel and the security value it provides. Also total up all the costs to give me an average monthly cost. Also be sure to give any cost saving recommendations based on my data ingestion.
 
+![O365Logs](https://github.com/SCStelz/CopilotForSecurity/blob/main/Images/sentinel-cost.png)
+![O365Logs](https://github.com/SCStelz/CopilotForSecurity/blob/main/Images/sentinel-cost-1.png)
+
+
 
 
