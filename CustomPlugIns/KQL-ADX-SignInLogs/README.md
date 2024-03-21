@@ -23,7 +23,7 @@
 Here's some sample queries you can utilize to trigger this plugin - You can mix and match UPN or IP Address (or both) parameters, but always include a time and date range.
 
  * Can you describe the Sign in log results in detail from the ADX Long Term Archive store over a few paragraphs for user@contoso.com between Oct 23, 2023 and Oct 27, 2023?
-* Can you describe the Sign in log results in detail from the ADX Long Term Archive store over a few paragraphs for the IP 165.87.34.123 between Oct 23, 2023 and Oct 27, 2023?
+* Can you describe the Sign in log results in detail from the ADX Long Term Archive store over a few paragraphs for the IP 165.87.34.123 in the last 30 days?
  * Can you describe in detail the sign-in's where Conditional Access status was a failure from the ADX Long Term Archive store for user@contoso.com during December 2023?  Be sure to include timestamps for the sign-in activities.
 <br>
 
