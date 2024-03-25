@@ -2,7 +2,7 @@ Descriptor:
   Name: Summarize recent audit logs from GCP (Google Cloud Platform) for a certain user, ip address and time range from logs in Microsoft Sentinel
   DisplayName: "Sentinel KQL: GCP Audit Logs"
   Description: Get the recent audit logs from GCP (Google Cloud Platform) for a certain user, ip address and time range from logs in Microsoft Sentinel
-  #Can you describe in detail over a few paragraphs the GCP Audit Log operations associated with officechris@gmail.com over the last 90 days?? Be sure to also include all the logs in a format I can export.
+  #Can you describe in detail over a few paragraphs the GCP Audit Log operations associated with user@domain.com over the last 90 days?? Be sure to also include all the logs in a format I can export.
 
 SkillGroups:
   - Format: KQL
