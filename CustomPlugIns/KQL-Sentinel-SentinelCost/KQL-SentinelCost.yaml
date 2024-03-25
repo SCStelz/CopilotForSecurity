@@ -1,7 +1,7 @@
 Descriptor:
-  Name: Summarize Sentinel Cost details for a specified time and date range from CyberSecuritySOC in tenant contosohotels.com
+  Name: Summarize Sentinel Cost details for a specified time and date range.
   DisplayName: "Sentinel KQL: Sentinel Cost Details"
-  Description: Skills that lookup recent Sentinel Cost Details from Sentinel workspace CyberSecuritySOC in tenant contosohotels.com.
+  Description: Skills that lookup recent Sentinel Cost Details from Sentinel workspace.
   #Can you lookup what my Sentinel costs are for the past 7 days?
   #Can you provide a detailed summary of my total Sentinel costs for the past 90 days? Be sure to explain what each table is used for within Sentinel and the security value it provides. Also total up all the costs to give me an average monthly cost. Also be sure to give any cost saving recommendations based on my data ingestion.
 SkillGroups:
@@ -9,7 +9,7 @@ SkillGroups:
     Skills:
       - Name: GetSentinelCost
         DisplayName: Get Sentinel Cost
-        Description: Fetches all the Sentinel Cost details for each table for the specified time and date range from Sentinel workspace CyberSecuritySOC in tenant contosohotels.com.
+        Description: Fetches all the Sentinel Cost details for each table for the specified time and date range from Sentinel.
         Inputs:
           - Name: fromDateTime
             Description: The from time and date
